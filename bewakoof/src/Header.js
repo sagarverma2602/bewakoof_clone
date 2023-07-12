@@ -1,6 +1,7 @@
 import React from 'react'
 import './Header.css'
 import logo from './assets/images/logo_bewakoof.png'
+import {CiHeart,CiShoppingBasket} from 'react-icons/ci'
 function Header() {
   return (
     <div className='mainheader'>
@@ -28,7 +29,17 @@ function Header() {
 
                 
             </div>
-            <div className='right2'></div>
+            <div className='right2'>
+                <input type='search' placeholder='Search By Product, Category, Collection'></input>
+                
+                <div className='vline'></div>
+                <a href='#'>Login</a>
+                <CiHeart className='icons' />
+                
+                <CiShoppingBasket className='icons'/>
+
+                
+            </div>
 
         </div>
     </div>

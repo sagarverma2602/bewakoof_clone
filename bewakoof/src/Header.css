@@ -10,6 +10,23 @@
     gap: 20px;
     
 }
+.header2{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.header2 > *{
+    padding:5px;
+    display:flex;
+    gap: 20px;
+    
+}
+.header2 a{
+    font-size: 20px;
+}
+.vline{
+    border-left: solid .5px black;
+}
 .header1 a{
     font-size: 13px;
 }
@@ -17,16 +34,20 @@ a{
     text-decoration: none;
     color: black;
 }
-.left-option{
+.left-option,.left2{
     margin-left: 7%;
 }
-.right-option{
+.right-option,.right2{
 
     margin-right: 7%;
 }
+
 .logo{
     width: 180px;
+    max-height: 25px;
 }
-.header2{
+.icons{
+    width: 50px;
+    height: 25px;
+}
 
-}
