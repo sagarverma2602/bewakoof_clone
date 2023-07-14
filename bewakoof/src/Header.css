@@ -32,7 +32,7 @@
 }
 a{
     text-decoration: none;
-    color: black;
+    color: rgb(41, 41, 41);
 }
 .left-option,.left2{
     margin-left: 7%;
@@ -44,7 +44,7 @@ a{
 
 .logo{
     width: 180px;
-    max-height: 26px;
+    max-height: 25px;
 }
 .icons{
     width: 50px;

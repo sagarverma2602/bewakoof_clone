@@ -33,7 +33,7 @@ function Header() {
                 <input type='search' placeholder='Search By Product, Category, Collection'></input>
                 
                 <div className='vline'></div>
-                <a href='#'>Login</a>
+                <a href='#'>Login </a>
                 <CiHeart className='icons' />
                 
                 <CiShoppingBasket className='icons'/>
